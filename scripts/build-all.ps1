@@ -38,6 +38,7 @@ function Get-ProjectFingerprint {
         Get-ChildItem -LiteralPath (Join-Path $RepoRoot "assets/fonts") -File -Recurse -ErrorAction SilentlyContinue
         Get-Item -LiteralPath $PSCommandPath
         Get-Item -LiteralPath (Join-Path $RepoRoot "scripts/export-web-pdf.cjs")
+        Get-Item -LiteralPath (Join-Path $RepoRoot "scripts/pdf-toc-links.cjs")
         Get-Item -LiteralPath (Join-Path $RepoRoot "package-lock.json")
         Get-ChildItem -LiteralPath (Join-Path $RepoRoot "themes") -File -Recurse |
             Where-Object { $_.FullName -notmatch '[\\/]node_modules[\\/]' }

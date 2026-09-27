@@ -4,6 +4,7 @@ const path = require('node:path');
 const http = require('node:http');
 const { chromium } = require('playwright');
 const { PDFDocument, PDFName, PDFHexString, PDFArray, PDFDict } = require('pdf-lib');
+const { groupDestinations, linkPdfTocGroups } = require('./pdf-toc-links.cjs');
 
 const [projectArg, filename, baseArg = ''] = process.argv.slice(2);
 if (!projectArg || !filename || path.basename(filename) !== filename) {
@@ -47,6 +48,7 @@ function namedDestinations(document) {
 async function main() {
   const config = JSON.parse(await fs.readFile(path.join(root, 'config.json'), 'utf8'));
   const book = config.projects[0];
+  const groupLinks = groupDestinations(book.pages || []);
   const chapters = [
     { slug: '', title: book.title },
     ...(book.pages || []).filter(p => p.slug && p.slug !== book.index),
@@ -108,6 +110,7 @@ async function main() {
           if (!img.naturalWidth) throw new Error(`Image failed: ${img.src}`);
         }
       });
+      const linkedGroups = await page.evaluate(linkPdfTocGroups, { links: groupLinks, base });
       // Preserve the actual screen column positions, without CSS grid's print
       // fragmentation quirks. Fixed sidebars repeat on each sheet of a chapter.
       const layout = await page.evaluate(() => {
@@ -194,7 +197,7 @@ async function main() {
           }
         }
       }
-      qa.push({ slug: chapter.slug || 'index', pages: copied.length, ...metrics });
+      qa.push({ slug: chapter.slug || 'index', pages: copied.length, linkedGroups, ...metrics });
       console.log(`  ${chapter.title}: ${copied.length} PDF pages`);
     }
     for (const { annotation, uri } of pendingLinks) {

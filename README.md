@@ -33,6 +33,7 @@ american intonation/_build/exports/american-intonation.pdf
 PDF 直接由浏览器渲染生成的网页，沿用网页的字体、配色、标题、代码块和侧栏，
 使用 A3 横向分页，为桌面网页布局留出空间。每章从新页开始，侧栏在该章的各页重复，
 并提供 PDF 章节书签和章节跳转链接。PDF 中的搜索、主题切换等按钮不具备网页交互功能。
+PDF 左侧的一级分组标题可直接跳转到该组第一篇文章；网页中的分组仍保留展开、收起操作。
 本地与部署机器的系统字体不同，仍可能存在细微字形差异。
 
 Windows 未安装 Playwright Chromium 时会尝试使用本机 Edge。
