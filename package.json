@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "katex": "0.15.2",
+    "mystmd": "1.11.0",
     "pdf-lib": "1.17.1",
     "playwright": "1.63.0"
   }

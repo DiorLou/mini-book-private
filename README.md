@@ -11,10 +11,9 @@
 
 ## 本地构建
 
-安装 Node.js 和 MyST 后，在仓库根目录执行（首次需安装 PDF 导出依赖）：
+安装 Node.js 后，在仓库根目录执行（首次克隆或更换目录后需安装依赖，包含 MyST 和 PDF 导出工具）：
 
 ```powershell
-npm install -g mystmd
 npm ci
 npm run install:browser
 ./scripts/build-all.ps1
@@ -42,9 +41,9 @@ GitHub Actions 会自动安装 Chromium 和中文字体。需要纸质 A4 时可
 只构建一本时，进入它的目录并执行：
 
 ```powershell
-myst build --html
+npx --no-install myst build --html
 node ../scripts/export-web-pdf.cjs . american-intonation.pdf
-myst build --html
+npx --no-install myst build --html
 ```
 
 以上文件名以美式语调为例，其他书籍使用表格中的 PDF 文件名。

@@ -6,12 +6,21 @@
 
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+$NodeMyst = Join-Path $RepoRoot "node_modules/.bin/myst"
+if ($env:OS -eq "Windows_NT") { $NodeMyst += ".cmd" }
 $LocalMyst = Join-Path $RepoRoot ".venv/Scripts/myst.exe"
-$MystCommand = if (Test-Path -LiteralPath $LocalMyst) {
+$MystCommand = if (Test-Path -LiteralPath $NodeMyst) {
+    $NodeMyst
+}
+elseif (Test-Path -LiteralPath $LocalMyst) {
     $LocalMyst
 }
 else {
-    (Get-Command myst -ErrorAction Stop).Source
+    $InstalledMyst = Get-Command myst -ErrorAction SilentlyContinue
+    if (-not $InstalledMyst) {
+        throw "MyST is missing. Run npm ci and npm run install:browser from the repository root, then retry this script."
+    }
+    $InstalledMyst.Source
 }
 $Projects = @(
     @{ Name = "计算机与深度学习"; Path = "deep learning"; Slug = "computer"; Pdf = "computer-notes.pdf" },
