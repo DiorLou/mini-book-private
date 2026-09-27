@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$PublishDir = "",
     [switch]$ChangedOnly,
     [switch]$NoOpenPrompt

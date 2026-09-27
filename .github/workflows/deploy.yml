@@ -15,7 +15,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  windows-script-check:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse scripts with Windows PowerShell 5.1
+        shell: powershell
+        run: |
+          $failed = $false
+          Get-ChildItem scripts -Filter *.ps1 | ForEach-Object {
+            $tokens = $null
+            $parseErrors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$parseErrors) > $null
+            if ($parseErrors.Count) {
+              $failed = $true
+              Write-Output $parseErrors
+            }
+          }
+          if ($failed) { exit 1 }
   deploy:
+    needs: windows-script-check
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
