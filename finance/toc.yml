@@ -1,0 +1,24 @@
+version: 1
+project:
+  toc:
+    - file: intro.md
+    - title: 金融市场基础
+      children:
+        - title: 证券公司与基金公司
+          file: market-institutions.md
+        - title: 指数基金、ETF 与 LOF
+          file: fund-products.md
+        - title: 场内交易与场外申赎
+          file: trading-venues.md
+    - title: 衍生品与交易机制
+      children:
+        - title: 期货、保证金与杠杆
+          file: futures.md
+        - title: A 股集合竞价
+          file: call-auction.md
+    - title: 投资分析
+      children:
+        - title: ROE 与盈利效率
+          file: roe.md
+        - title: A 股技术分析学习路径
+          file: technical-analysis-guide.md

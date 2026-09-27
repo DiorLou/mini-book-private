@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./favicon.ico" sizes="any">
+  <title>我的笔记本</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", sans-serif; }
+    body { margin: 0; background: #f5f2eb; color: #25231f; }
+    main { max-width: 920px; margin: 0 auto; padding: 72px 24px; }
+    h1 { font-size: clamp(2.2rem, 6vw, 4.4rem); margin: 0 0 12px; letter-spacing: -.04em; }
+    .lead { color: #6c675e; font-size: 1.15rem; margin-bottom: 48px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    a { display: block; padding: 26px; border-radius: 18px; background: #fff; color: inherit; text-decoration: none; box-shadow: 0 8px 30px #4c463714; transition: transform .2s, box-shadow .2s; }
+    a:hover { transform: translateY(-3px); box-shadow: 0 14px 36px #4c463724; }
+    h2 { margin: 0 0 10px; font-size: 1.25rem; }
+    p { margin: 0; color: #777066; line-height: 1.65; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>我的笔记本</h1>
+    <p class="lead">四本相互独立的在线笔记，并提供对应 PDF 下载。</p>
+    <section class="grid">
+      <a href="./computer/"><h2>计算机笔记</h2><p>计算机、机器学习与深度学习。</p></a>
+      <a href="./finance/"><h2>金融笔记</h2><p>金融基础与投资学习记录。</p></a>
+      <a href="./american-intonation/"><h2>American intonation</h2><p>美式英语语调、重音、旋律与节奏。</p></a>
+      <a href="./vocabulary/"><h2>记单词</h2><p>按日期整理英语词汇、例句与语法。</p></a>
+    </section>
+  </main>
+</body>
+</html>

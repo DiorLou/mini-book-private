@@ -1,0 +1,14 @@
+version: 1
+project:
+  toc:
+    - file: intro.md
+    - title: "2026"
+      children:
+        - title: 九月
+          children:
+            - title: "2026-09-06"
+              file: 2026/09/2026-09-06.md
+            - title: "2026-09-07"
+              file: 2026/09/2026-09-07.md
+            - title: "2026-09-08"
+              file: 2026/09/2026-09-08.md

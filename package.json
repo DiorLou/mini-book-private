@@ -1,0 +1,12 @@
+{
+  "name": "mini-book-build",
+  "private": true,
+  "scripts": {
+    "install:browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "katex": "0.15.2",
+    "pdf-lib": "1.17.1",
+    "playwright": "1.63.0"
+  }
+}

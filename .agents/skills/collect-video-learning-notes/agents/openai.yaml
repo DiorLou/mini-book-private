@@ -1,0 +1,4 @@
+interface:
+  display_name: "收集视频学习笔记"
+  short_description: "连续收集视频截图和文字，结束后梳理并写入 Mini Book"
+  default_prompt: "使用 $collect-video-learning-notes 开始收集本次视频学习素材。"

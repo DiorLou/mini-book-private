@@ -1,0 +1,36 @@
+version: 1
+
+project:
+  id: computer-notes
+  title: 计算机与深度学习笔记
+  description: 计算机、机器学习与深度学习知识记录
+  authors:
+    - Diorlou
+  exports:
+    - id: computer-notes-pdf
+      format: typst
+      template: plain_typst_book
+      fontstyle: Noto Sans SC
+      articles:
+        - intro.md
+        - probability-likelihood.md
+        - cross-entropy.md
+        - pytorch-cross-entropy.md
+        - softmax-cross-entropy-gradient.md
+        - forward-backward.md
+        - autograd.md
+        - vector-backward.md
+        - loss-reduction.md
+      output: _build/exports/computer-notes.pdf
+  downloads:
+    - id: computer-notes-pdf
+      title: 下载计算机笔记 PDF
+
+extends:
+  - toc.yml
+
+site:
+  title: 计算机与深度学习笔记
+  template: book-theme
+  options:
+    favicon: favicon.svg

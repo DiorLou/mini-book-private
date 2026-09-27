@@ -1,0 +1,26 @@
+version: 1
+project:
+  toc:
+    - file: intro.md
+    - title: 概率与统计
+      children:
+        - title: 概率与似然
+          file: probability-likelihood.md
+    - title: 损失函数
+      children:
+        - title: 交叉熵与负对数似然
+          file: cross-entropy.md
+        - title: PyTorch CrossEntropyLoss
+          file: pytorch-cross-entropy.md
+        - title: Softmax 交叉熵梯度
+          file: softmax-cross-entropy-gradient.md
+    - title: 自动微分与优化
+      children:
+        - title: 正向传播与反向传播
+          file: forward-backward.md
+        - title: Autograd 与梯度累加
+          file: autograd.md
+        - title: 向量反向传播
+          file: vector-backward.md
+        - title: 损失归约与批量大小
+          file: loss-reduction.md

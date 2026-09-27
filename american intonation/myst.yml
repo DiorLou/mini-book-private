@@ -1,0 +1,36 @@
+version: 1
+
+project:
+  id: american-intonation
+  title: American intonation
+  description: 美式英语语调、重音、旋律与节奏学习笔记
+  authors:
+    - Diorlou
+  exports:
+    - id: american-intonation-pdf
+      format: typst
+      template: plain_typst_book
+      fontstyle: Noto Sans SC
+      articles:
+        - intro.md
+        - stress-melody-rhythm.md
+        - question-final-intonation.md
+        - suffixes-word-stress.md
+        - phrasing-connected-speech.md
+        - connected-speech-linking-patterns.md
+        - contractions-vowels-consonants.md
+        - function-words-reduction-devoicing.md
+        - position-before-sound.md
+      output: _build/exports/american-intonation.pdf
+  downloads:
+    - id: american-intonation-pdf
+      title: 下载 American intonation PDF
+
+extends:
+  - toc.yml
+
+site:
+  title: American intonation
+  template: ../themes/book-theme/template.yml
+  options:
+    favicon: favicon.svg

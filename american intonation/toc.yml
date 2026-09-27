@@ -1,0 +1,28 @@
+version: 1
+project:
+  toc:
+    - file: intro.md
+    - title: stress, melody, rhythm
+      children:
+        - title: 英语语调的三要素
+          file: stress-melody-rhythm.md
+        - title: 句尾升降如何区分陈述、一般疑问句与特殊疑问句
+          file: question-final-intonation.md
+    - title: Word Stress（单词重音）
+      children:
+        - title: 后缀如何决定长单词的重音
+          file: suffixes-word-stress.md
+    - title: Phrasing and Connected Speech
+      children:
+        - title: 用意群、停顿和重音组织自然表达
+          file: phrasing-connected-speech.md
+        - title: "Connected Speech: Vowel-to-Consonant, Consonant-to-Consonant, Consonant-to-Vowel, and Vowel-to-Vowel Linking"
+          file: connected-speech-linking-patterns.md
+        - title: Contractions：弱化元音、保留辅音的英语缩略形式
+          file: contractions-vowels-consonants.md
+        - title: "功能词的弱读与清浊同化：and / or / for / of 和 have to 系列"
+          file: function-words-reduction-devoicing.md
+    - title: 发音基础
+      children:
+        - title: 先定位，再发声：英语发音的口型与舌位训练
+          file: position-before-sound.md

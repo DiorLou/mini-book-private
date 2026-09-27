@@ -1,0 +1,35 @@
+version: 1
+
+project:
+  id: finance-notes
+  title: 金融投资笔记
+  description: 金融基础与投资学习记录
+  authors:
+    - Diorlou
+  exports:
+    - id: finance-notes-pdf
+      format: typst
+      template: plain_typst_book
+      fontstyle: Noto Sans SC
+      articles:
+        - intro.md
+        - market-institutions.md
+        - fund-products.md
+        - trading-venues.md
+        - futures.md
+        - call-auction.md
+        - roe.md
+        - technical-analysis-guide.md
+      output: _build/exports/finance-notes.pdf
+  downloads:
+    - id: finance-notes-pdf
+      title: 下载金融笔记 PDF
+
+extends:
+  - toc.yml
+
+site:
+  title: 金融投资笔记
+  template: book-theme
+  options:
+    favicon: favicon.svg

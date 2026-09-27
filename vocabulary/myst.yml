@@ -1,0 +1,31 @@
+version: 1
+
+project:
+  id: vocabulary-notes
+  title: 记单词
+  description: 按日期整理英语单词的音标、语境义、例句与语法
+  authors:
+    - Diorlou
+  exports:
+    - id: vocabulary-notes-pdf
+      format: typst
+      template: plain_typst_book
+      fontstyle: Noto Sans SC
+      articles:
+        - intro.md
+        - 2026/09/2026-09-06.md
+        - 2026/09/2026-09-07.md
+        - 2026/09/2026-09-08.md
+      output: _build/exports/vocabulary-notes.pdf
+  downloads:
+    - id: vocabulary-notes-pdf
+      title: 下载《记单词》PDF
+
+extends:
+  - toc.yml
+
+site:
+  title: 记单词
+  template: book-theme
+  options:
+    favicon: ../portal/favicon.ico
