@@ -18,6 +18,7 @@ project:
         - 2026/09/2026-09-08.md
         - 2026/09/2026-09-27.md
         - 2026/09/2026-09-28.md
+        - 2026/09/2026-09-29.md
       output: _build/exports/vocabulary-notes.pdf
   downloads:
     - id: vocabulary-notes-pdf
