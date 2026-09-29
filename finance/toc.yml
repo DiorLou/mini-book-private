@@ -18,6 +18,8 @@ project:
           file: call-auction.md
     - title: 投资分析
       children:
+        - title: 从 AI 泡沫到股权稀释
+          file: valuation-equity-options.md
         - title: ROE 与盈利效率
           file: roe.md
         - title: A 股技术分析学习路径

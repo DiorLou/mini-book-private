@@ -18,6 +18,7 @@ project:
         - trading-venues.md
         - futures.md
         - call-auction.md
+        - valuation-equity-options.md
         - roe.md
         - technical-analysis-guide.md
       output: _build/exports/finance-notes.pdf
