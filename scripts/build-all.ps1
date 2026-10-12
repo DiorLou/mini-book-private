@@ -48,6 +48,7 @@ function Get-ProjectFingerprint {
         Get-Item -LiteralPath $PSCommandPath
         Get-Item -LiteralPath (Join-Path $RepoRoot "scripts/export-web-pdf.cjs")
         Get-Item -LiteralPath (Join-Path $RepoRoot "scripts/pdf-toc-links.cjs")
+        Get-Item -LiteralPath (Join-Path $RepoRoot "scripts/build-vocabulary-html.ps1")
         Get-Item -LiteralPath (Join-Path $RepoRoot "package-lock.json")
         Get-ChildItem -LiteralPath (Join-Path $RepoRoot "themes") -File -Recurse |
             Where-Object { $_.FullName -notmatch '[\\/]node_modules[\\/]' }
@@ -130,7 +131,12 @@ try {
             # First render the website, then print its desktop layout to PDF.
             # Rebuild HTML afterwards so MyST bundles the newly generated PDF
             # under its correct content hash for the site's download button.
-            & $MystCommand build --html --ci
+            if ($Project.Slug -eq "vocabulary") {
+                & (Join-Path $PSScriptRoot "build-vocabulary-html.ps1") -MystCommand $MystCommand
+            }
+            else {
+                & $MystCommand build --html --ci
+            }
             if ($LASTEXITCODE -ne 0) { throw "HTML build failed: $($Project.Name)" }
             & node (Join-Path $PSScriptRoot "export-web-pdf.cjs") $ProjectPath $Project.Pdf $env:BASE_URL
             if ($LASTEXITCODE -ne 0) { throw "Website PDF export failed: $($Project.Name)" }
@@ -142,7 +148,12 @@ try {
                 Name = $Project.Name
                 Path = $PdfPath
             }
-            & $MystCommand build --html --ci
+            if ($Project.Slug -eq "vocabulary") {
+                & (Join-Path $PSScriptRoot "build-vocabulary-html.ps1") -MystCommand $MystCommand
+            }
+            else {
+                & $MystCommand build --html --ci
+            }
             if ($LASTEXITCODE -ne 0) { throw "HTML download refresh failed: $($Project.Name)" }
         }
         finally {

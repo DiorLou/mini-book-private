@@ -8,19 +8,405 @@ project:
           children:
             - title: "2026-09-06"
               file: 2026/09/2026-09-06.md
+              children:
+                - title: "feeding：为……提供食物；养活"
+                  url: ./2026-09-06#word-feed-provide-food-2026-09-06
+                - title: "语法：动名词作主语与 due primarily to"
+                  url: ./2026-09-06#grammar-gerund-subject-2026-09-06
+                - title: "regard：重视、评价（low regard：不重视、评价不高）"
+                  url: ./2026-09-06#word-regard-low-opinion-2026-09-06
             - title: "2026-09-07"
               file: 2026/09/2026-09-07.md
+              children:
+                - title: "idiot：笨蛋；傻瓜"
+                  url: ./2026-09-07#word-idiot-foolish-person-2026-09-07
+                - title: "语法：nothing like as ... as 比较结构"
+                  url: ./2026-09-07#grammar-nothing-like-as-2026-09-07
+                - title: "olfactory：嗅觉的"
+                  url: ./2026-09-07#word-olfactory-related-to-smell-2026-09-07
+                - title: "remarkably：非常；相当；显著地"
+                  url: ./2026-09-07#word-remarkably-to-notable-degree-2026-09-07
+                - title: "acute：敏锐的；灵敏的"
+                  url: ./2026-09-07#word-acute-sensitive-2026-09-07
             - title: "2026-09-08"
               file: 2026/09/2026-09-08.md
+              children:
+                - title: "语法：would not have been 与过去假设"
+                  url: ./2026-09-08#grammar-would-have-been-2026-09-08
+                - title: "语法：would 的形式与常见用法"
+                  url: ./2026-09-08#grammar-would-common-uses-2026-09-08
+                - title: "语法：I prefer 与 I’d prefer"
+                  url: ./2026-09-08#grammar-prefer-would-prefer-2026-09-08
+                - title: "harness：利用、驾驭"
+                  url: ./2026-09-08#word-harness-use-force-2026-09-08
+                - title: "Egyptians：埃及人"
+                  url: ./2026-09-08#word-egyptian-people-of-egypt-2026-09-08
+                - title: "out of the question：不可能；不予考虑"
+                  url: ./2026-09-08#phrase-out-of-the-question-impossible-2026-09-08
+                - title: "meagre pickings：少得可怜的收获；有限的资源"
+                  url: ./2026-09-08#phrase-meagre-pickings-scarce-resources-2026-09-08
+                - title: "appreciate：充分意识到；理解"
+                  url: ./2026-09-08#word-appreciate-understand-fully-2026-09-08
             - title: "2026-09-27"
               file: 2026/09/2026-09-27.md
+              children:
+                - title: "by that：用那句话所表达的意思"
+                  url: ./2026-09-27#phrase-by-that-meaning-2026-09-27
+                - title: "rapport：融洽、互相信任的关系"
+                  url: ./2026-09-27#word-rapport-harmonious-relationship-2026-09-27
             - title: "2026-09-28"
               file: 2026/09/2026-09-28.md
+              children:
+                - title: "语法：due primarily to 与 primarily due to 的语序"
+                  url: ./2026-09-28#grammar-due-primarily-to-word-order-2026-09-28
+                - title: "slide deck：一套幻灯片"
+                  url: ./2026-09-28#example-slide-deck-2026-09-28
+                - title: "slide：一张幻灯片"
+                  url: ./2026-09-28#word-slide-presentation-page-2026-09-28
+                - title: "deck：一套幻灯片；演示文稿"
+                  url: ./2026-09-28#word-deck-presentation-set-2026-09-28
+                - title: "booming：低沉而洪亮的"
+                  url: ./2026-09-28#word-boom-deep-loud-voice-2026-09-28
+                - title: "It turns out：原来；结果发现"
+                  url: ./2026-09-28#phrase-turn-out-discovered-fact-2026-09-28
+                - title: "baffled：困惑不解的；摸不着头脑的"
+                  url: ./2026-09-28#word-baffle-puzzled-2026-09-28
+                - title: "befuddled：迷惑不解的；被弄糊涂的"
+                  url: ./2026-09-28#word-befuddle-confused-2026-09-28
+                - title: "语法：would have left"
+                  url: ./2026-09-28#grammar-would-have-left-2026-09-28
+                - title: "included：被纳入、被包括在内"
+                  url: ./2026-09-28#word-include-exhibition-2026-09-28
+                - title: "colonial：殖民时期的"
+                  url: ./2026-09-28#word-colonial-art-2026-09-28
+                - title: "progressing：逐步发展、向前推进"
+                  url: ./2026-09-28#word-progress-through-stages-2026-09-28
+                - title: "culminating：最终达到、以……收尾"
+                  url: ./2026-09-28#word-culminate-final-stage-2026-09-28
+                - title: "语法：at which 与 where"
+                  url: ./2026-09-28#grammar-at-which-where-2026-09-28
+                - title: "语法：criticism that hints at ..."
+                  url: ./2026-09-28#grammar-relative-that-2026-09-28
+                - title: "excel：非常擅长、表现出色"
+                  url: ./2026-09-28#word-excel-be-skilled-2026-09-28
+                - title: "hint：暗示、间接透露"
+                  url: ./2026-09-28#word-hint-suggest-2026-09-28
+                - title: "telling：很能说明问题的、透露真实看法的"
+                  url: ./2026-09-28#word-telling-revealing-2026-09-28
+                - title: "condescending：居高临下的、带着优越感的"
+                  url: ./2026-09-28#word-condescending-superiority-2026-09-28
+                - title: "语法：不定式作主语与宾语补足语"
+                  url: ./2026-09-28#grammar-infinitive-subject-2026-09-28
+                - title: "meant：词形与常见用法（已补充）"
+                  url: ./2026-09-28#word-meant-review-2026-09-28
             - title: "2026-09-29"
               file: 2026/09/2026-09-29.md
+              children:
+                - title: "baffled 与 befuddled：想不明白与思路混乱"
+                  url: ./2026-09-29#comparison-baffled-befuddled-2026-09-29
+                - title: "baffled：困惑不解（复习）"
+                  url: ./2026-09-29#grammar-baffled-review-2026-09-29
+                - title: "befuddled：被弄糊涂（复习）"
+                  url: ./2026-09-29#grammar-befuddled-review-2026-09-29
+                - title: "语法：could 的形式与常见用法"
+                  url: ./2026-09-29#grammar-could-common-uses-2026-09-29
+                - title: "语法：宾语从句中的完全倒装"
+                  url: ./2026-09-29#grammar-object-inversion-2026-09-29
+                - title: "语法：call 宾补与 so ... that ..."
+                  url: ./2026-09-29#grammar-call-so-that-2026-09-29
+                - title: "irrational：不合逻辑的；不理性的"
+                  url: ./2026-09-29#word-irrational-illogical-2026-09-29
+                - title: "utterances：话语；说出来的话"
+                  url: ./2026-09-29#word-utterance-spoken-expression-2026-09-29
+                - title: "genius：天才"
+                  url: ./2026-09-29#word-genius-brilliant-person-2026-09-29
+                - title: "championed：大力倡导；积极支持"
+                  url: ./2026-09-29#word-champion-advocate-2026-09-29
+                - title: "revered：深受敬重；备受尊崇"
+                  url: ./2026-09-29#word-revere-deep-respect-2026-09-29
+                - title: "语法：as 引导时间从句"
+                  url: ./2026-09-29#grammar-as-time-2026-09-29
+                - title: "语法：the way they are"
+                  url: ./2026-09-29#grammar-the-way-they-are-2026-09-29
+                - title: "began：开始——begin doing 与 begin to do"
+                  url: ./2026-09-29#word-begin-start-2026-09-29
+                - title: "scrupulously：一丝不苟地；细致认真地"
+                  url: ./2026-09-29#word-scrupulously-meticulously-2026-09-29
+                - title: "sensible：合乎情理的；合理的"
+                  url: ./2026-09-29#word-sensible-reasonable-2026-09-29
+                - title: "coherent：连贯的；逻辑一致的"
+                  url: ./2026-09-29#word-coherent-logically-consistent-2026-09-29
+                - title: "recognised：意识到；认识到"
+                  url: ./2026-09-29#word-recognise-realize-2026-09-29
+                - title: "beliefs：所相信的观点；看法"
+                  url: ./2026-09-29#word-belief-held-view-2026-09-29
+                - title: "after：在 be after 中表示寻求、追求"
+                  url: ./2026-09-29#word-after-seeking-2026-09-29
+                - title: "ingenuity：巧思；独创性；巧妙解决问题的能力"
+                  url: ./2026-09-29#word-ingenuity-inventiveness-2026-09-29
+                - title: "stand someone in good stead：对某人大有帮助"
+                  url: ./2026-09-29#grammar-stand-good-stead-2026-09-29
+                - title: "stands：在 stand someone in good stead 中表示使某人受益"
+                  url: ./2026-09-29#word-stand-benefit-2026-09-29
+                - title: "stead：在 in good stead 中表示有益、有帮助"
+                  url: ./2026-09-29#word-stead-good-stead-2026-09-29
+                - title: "语法：冒号后的三个 that 从句"
+                  url: ./2026-09-29#grammar-three-that-clauses-2026-09-29
+                - title: "Disciples：追随者；信奉某种学说的人"
+                  url: ./2026-09-29#word-disciple-follower-2026-09-29
+                - title: "primitive：初步的；朴素的；尚未成熟的"
+                  url: ./2026-09-29#word-primitive-rudimentary-2026-09-29
+                - title: "laws：规律；定律"
+                  url: ./2026-09-29#word-law-physical-regularity-2026-09-29
+                - title: "physics：物理学"
+                  url: ./2026-09-29#word-physics-science-2026-09-29
+                - title: "outlast：比……持续得更久——could well outlast 与 that of"
+                  url: ./2026-09-29#word-outlast-last-longer-2026-09-29
+                - title: "语法：that of 的替代作用"
+                  url: ./2026-09-29#grammar-that-of-2026-09-29
+                - title: "语法：两个分词短语的修饰对象"
+                  url: ./2026-09-29#grammar-participial-modifiers-2026-09-29
+                - title: "cast：在 cast doubt over/on 中表示引起质疑"
+                  url: ./2026-09-29#word-cast-cause-doubt-2026-09-29
+                - title: "associating：把……与……联系起来"
+                  url: ./2026-09-29#word-associate-connect-2026-09-29
+                - title: "exclusively：仅仅；只；排他地"
+                  url: ./2026-09-29#word-exclusively-only-2026-09-29
+                - title: "came along：出现；登场"
+                  url: ./2026-09-29#word-come-along-appear-2026-09-29
             - title: "2026-09-30"
               file: 2026/09/2026-09-30.md
+              children:
+                - title: "语法：since 原因从句与 as 补充说明"
+                  url: ./2026-09-30#grammar-since-as-clauses-2026-09-30
+                - title: "since：既然；由于"
+                  url: ./2026-09-30#word-since-because-2026-09-30
+                - title: "strong：重要的；突出的；有影响力的"
+                  url: ./2026-09-30#word-strong-prominent-2026-09-30
+                - title: "appeared：似乎；在某人看来"
+                  url: ./2026-09-30#word-appear-seem-2026-09-30
+                - title: "looked to：将目光转向；关注"
+                  url: ./2026-09-30#word-look-to-turn-attention-2026-09-30
+                - title: "tendency：倾向；往往会发生的情况"
+                  url: ./2026-09-30#word-tendency-inclination-2026-09-30
+                - title: "语法：In reviewing 与 insisted on looking at"
+                  url: ./2026-09-30#grammar-in-reviewing-2026-09-30
+                - title: "genre：艺术类型；体裁"
+                  url: ./2026-09-30#word-genre-art-category-2026-09-30
+                - title: "meant：mean 的过去式和过去分词；意思、打算与意味着"
+                  url: ./2026-09-30#word-mean-overview-2026-09-30
+                - title: "mean to do：打算做"
+                  url: ./2026-09-30#grammar-mean-to-do-2026-09-30
+                - title: "mean doing：意味着"
+                  url: ./2026-09-30#grammar-mean-doing-2026-09-30
+                - title: "be meant to do：旨在；应该"
+                  url: ./2026-09-30#grammar-be-meant-to-do-2026-09-30
+                - title: "be meant for：为……准备"
+                  url: ./2026-09-30#grammar-be-meant-for-2026-09-30
+                - title: "mean a lot to someone：意义重大"
+                  url: ./2026-09-30#grammar-mean-a-lot-2026-09-30
+                - title: "notion：想法、观念、概念"
+                  url: ./2026-09-30#word-notion-overview-2026-09-30
+                - title: "opinion：意见、看法、评价"
+                  url: ./2026-09-30#word-opinion-overview-2026-09-30
+                - title: "ties：联系、关系"
+                  url: ./2026-09-30#word-tie-connection-2026-09-30
+                - title: "formative：对发展具有塑造作用的；形成期的"
+                  url: ./2026-09-30#word-formative-development-2026-09-30
+                - title: "would：从过去视角看会发生的事"
+                  url: ./2026-09-30#word-would-past-perspective-2026-09-30
+                - title: "devotion：热爱、投入；专注"
+                  url: ./2026-09-30#word-devotion-dedication-2026-09-30
+                - title: "beloved：深受喜爱的；钟爱的"
+                  url: ./2026-09-30#word-beloved-dearly-loved-2026-09-30
+                - title: "idiosyncrasies：独特之处；特有的风格特点"
+                  url: ./2026-09-30#word-idiosyncrasy-distinctive-feature-2026-09-30
+                - title: "over：关于；针对；因……而担忧"
+                  url: ./2026-09-30#word-over-concerning-2026-09-30
+                - title: "nevertheless：尽管如此；仍然"
+                  url: ./2026-09-30#word-nevertheless-concession-2026-09-30
+                - title: "peculiarities：独特之处；特有特点"
+                  url: ./2026-09-30#word-peculiarity-distinctive-feature-2026-09-30
+                - title: "onward：从某时起向后；往后"
+                  url: ./2026-09-30#word-onward-time-2026-09-30
+                - title: "be curated：被策划展出；被精选、编排"
+                  url: ./2026-09-30#word-curate-overview-2026-09-30
+                - title: "associated：与……相关联的"
+                  url: ./2026-09-30#word-associate-related-2026-09-30
+                - title: "distinctiveness：独特性；鲜明特色"
+                  url: ./2026-09-30#word-distinctiveness-quality-2026-09-30
+                - title: "reduce ... to ...：把……简化为；仅仅归结为"
+                  url: ./2026-09-30#word-reduce-limit-2026-09-30
+                - title: "denying：否认；在 little denying 中表示几乎无法否认"
+                  url: ./2026-09-30#word-deny-undeniable-2026-09-30
+                - title: "relevant：相关的；有意义的；有参考价值的"
+                  url: ./2026-09-30#word-relevant-connected-2026-09-30
+                - title: "imposing：把……强加于……"
+                  url: ./2026-09-30#word-impose-force-2026-09-30
+                - title: "principles：原则、准则；此处指艺术观念与评判标准"
+                  url: ./2026-09-30#word-principle-standard-2026-09-30
+                - title: "Aboriginal：澳大利亚原住民的"
+                  url: ./2026-09-30#word-aboriginal-australian-2026-09-30
+                - title: "语法：the idea being that ... 独立主格结构"
+                  url: ./2026-09-30#grammar-idea-being-2026-09-30
+                - title: "warrant：足以使……合理；值得、应当得到"
+                  url: ./2026-09-30#word-warrant-justify-2026-09-30
+                - title: "prominent：显著的、醒目的；重要的"
+                  url: ./2026-09-30#word-prominent-noticeable-2026-09-30
+                - title: "acknowledgment：认可、承认；此处指对艺术传统的认可与回应"
+                  url: ./2026-09-30#word-acknowledgment-recognition-2026-09-30
+                - title: "individualism：个人主义；此处侧重独立个性与个人表达"
+                  url: ./2026-09-30#word-individualism-personal-expression-2026-09-30
+                - title: "present：展示、呈现；向……介绍"
+                  url: ./2026-09-30#word-present-show-2026-09-30
+                - title: "Indigenous：原住民的；本土的"
+                  url: ./2026-09-30#word-indigenous-native-2026-09-30
+                - title: "authentic：真实的；忠实于真实面貌的"
+                  url: ./2026-09-30#word-authentic-faithful-2026-09-30
+                - title: "of its own：属于它自己的"
+                  url: ./2026-09-30#phrase-of-its-own-2026-09-30
+                - title: "influential：有影响力的；产生重要影响的"
+                  url: ./2026-09-30#word-influential-impact-2026-09-30
+                - title: "语法：it seems less so 中的 less 与替代词 so"
+                  url: ./2026-09-30#grammar-less-so-2026-09-30
+                - title: "appeal：吸引力"
+                  url: ./2026-09-30#word-appeal-attraction-2026-09-30
+                - title: "mystique：神秘感；神秘魅力"
+                  url: ./2026-09-30#word-mystique-aura-2026-09-30
+                - title: "continued：持续的；不断的"
+                  url: ./2026-09-30#word-continue-persistent-2026-09-30
+                - title: "references：提及；援引"
+                  url: ./2026-09-30#word-reference-mention-2026-09-30
+                - title: "claim：声称；说法、主张；索取、索赔"
+                  url: ./2026-09-30#word-claim-overview-2026-09-30
+                - title: "Yet：然而；可是"
+                  url: ./2026-09-30#word-yet-contrast-2026-09-30
+                - title: "few：为数不多的；少数的"
+                  url: ./2026-09-30#word-few-small-number-2026-09-30
+                - title: "语法：few、a few 与 the few"
+                  url: ./2026-09-30#grammar-few-a-few-2026-09-30
+                - title: "makes the same point：表达同样的观点"
+                  url: ./2026-09-30#phrase-make-point-2026-09-30
+                - title: "语法：If we could ..., it would ... 假设条件与结果"
+                  url: ./2026-09-30#grammar-could-would-hypothesis-2026-09-30
+                - title: "could：假设中能够"
+                  url: ./2026-09-30#word-could-hypothetical-ability-2026-09-30
+                - title: "would：在假设条件下会发生的结果"
+                  url: ./2026-09-30#word-would-hypothetical-result-2026-09-30
+                - title: "dealt with：deal with 的过去式／过去分词形式；处理、涉及、与……打交道"
+                  url: ./2026-09-30#word-deal-overview-2026-09-30
         - title: 十月
           children:
             - title: "2026-10-12"
               file: 2026/10/2026-10-12.md
+              children:
+                - title: "语法：定语从句与过去分词修饰"
+                  url: ./2026-10-12#grammar-relative-and-participle-2026-10-12
+                - title: "sense：理解、认识"
+                  url: ./2026-10-12#word-sense-understanding-2026-10-12
+                - title: "aspirations：愿景、理想、追求"
+                  url: ./2026-10-12#word-aspiration-vision-2026-10-12
+                - title: "embodied：体现、使具体化"
+                  url: ./2026-10-12#word-embody-express-2026-10-12
+                - title: "served as：充当、作为"
+                  url: ./2026-10-12#word-serve-function-as-2026-10-12
+                - title: "qualified：有保留的、有条件的"
+                  url: ./2026-10-12#word-qualify-reserved-2026-10-12
+                - title: "thoroughly：完全地、十分"
+                  url: ./2026-10-12#word-thoroughly-completely-2026-10-12
+                - title: "语法：现在完成时与 do credit to"
+                  url: ./2026-10-12#grammar-present-perfect-credit-2026-10-12
+                - title: "entrepreneurial：有开拓精神的、有创业精神的"
+                  url: ./2026-10-12#word-entrepreneurial-enterprising-2026-10-12
+                - title: "have done great credit to：为……增光、使……获得极大赞誉"
+                  url: ./2026-10-12#word-do-credit-to-bring-honor-2026-10-12
+                - title: "语法：被动语态与 through 介词短语"
+                  url: ./2026-10-12#grammar-passive-through-2026-10-12
+                - title: "sense：……感、……意识"
+                  url: ./2026-10-12#word-sense-feeling-2026-10-12
+                - title: "engagement：关注、参与、交流"
+                  url: ./2026-10-12#word-engagement-cultural-involvement-2026-10-12
+                - title: "through：通过、借助"
+                  url: ./2026-10-12#word-through-means-2026-10-12
+                - title: "layout：布局、陈列安排"
+                  url: ./2026-10-12#word-layout-arrangement-2026-10-12
+                - title: "engage：参与、互动、吸引、雇用及其他常见用法"
+                  url: ./2026-10-12#word-engage-overview-2026-10-12
+                - title: "语法：非限制性定语从句与插入成分"
+                  url: ./2026-10-12#grammar-nonrestrictive-relative-2026-10-12
+                - title: "unprecedented：前所未有的、空前的"
+                  url: ./2026-10-12#word-unprecedented-never-before-2026-10-12
+                - title: "ancillary：辅助性的、附属的"
+                  url: ./2026-10-12#word-ancillary-supporting-2026-10-12
+                - title: "corporate：公司的、企业的"
+                  url: ./2026-10-12#word-corporate-company-related-2026-10-12
+                - title: "functions：正式活动、社交活动"
+                  url: ./2026-10-12#word-function-social-event-2026-10-12
+                - title: "语法：might have seemed 对过去的推测"
+                  url: ./2026-10-12#grammar-might-have-seemed-2026-10-12
+                - title: "语法：how wise 感叹结构"
+                  url: ./2026-10-12#grammar-how-exclamation-2026-10-12
+                - title: "语法：prove 作系动词与现在完成时"
+                  url: ./2026-10-12#grammar-prove-linking-verb-2026-10-12
+                - title: "语法：as 从句与 have come to do"
+                  url: ./2026-10-12#grammar-as-have-come-to-2026-10-12
+                - title: "excessive to some：在一些人看来过度的"
+                  url: ./2026-10-12#word-excessive-too-much-2026-10-12
+                - title: "yet：然而、可是（复习）"
+                  url: ./2026-10-12#word-yet-review-2026-10-12
+                - title: "hire：租用、租赁"
+                  url: ./2026-10-12#word-hire-rental-2026-10-12
+                - title: "roam at large：自由走动、四处漫游"
+                  url: ./2026-10-12#word-roam-wander-2026-10-12
+                - title: "escorted：被陪同、被带领"
+                  url: ./2026-10-12#word-escort-accompany-2026-10-12
+                - title: "spatially：在空间上"
+                  url: ./2026-10-12#word-spatially-space-2026-10-12
+                - title: "accommodating：便于活动的、能满足需要的"
+                  url: ./2026-10-12#word-accommodating-spatial-suitability-2026-10-12
+                - title: "unintimidating：不令人畏惧的、不让人有压力的"
+                  url: ./2026-10-12#word-unintimidating-not-daunting-2026-10-12
+                - title: "lifelong：终身的、持续一生的"
+                  url: ./2026-10-12#word-lifelong-whole-life-2026-10-12
+                - title: "rigours：艰辛、严苛要求、费力之处"
+                  url: ./2026-10-12#word-rigour-demands-2026-10-12
+                - title: "overestimated：高估；cannot be overestimated 表示怎么高估也不为过"
+                  url: ./2026-10-12#word-overestimate-value-too-high-2026-10-12
+                - title: "语法：Foremost among these are 倒装"
+                  url: ./2026-10-12#grammar-foremost-inversion-2026-10-12
+                - title: "withstood：经受住、承受住"
+                  url: ./2026-10-12#word-withstand-endure-2026-10-12
+                - title: "foremost：最突出的、首要的"
+                  url: ./2026-10-12#word-foremost-most-prominent-2026-10-12
+                - title: "moat：护城河、环绕建筑的水道"
+                  url: ./2026-10-12#word-moat-water-channel-2026-10-12
+                - title: "expression of the museum：博物馆形象的呈现"
+                  url: ./2026-10-12#word-expression-architectural-image-2026-10-12
+                - title: "as a temple of culture：作为一座文化殿堂"
+                  url: ./2026-10-12#word-temple-cultural-metaphor-2026-10-12
+                - title: "rather：颇、相当"
+                  url: ./2026-10-12#word-rather-degree-2026-10-12
+                - title: "语法：现在完成时的被动语态"
+                  url: ./2026-10-12#grammar-perfect-passive-2026-10-12
+                - title: "impetus：动力、推动力"
+                  url: ./2026-10-12#word-impetus-driving-force-2026-10-12
+                - title: "towards：朝着、向着"
+                  url: ./2026-10-12#word-towards-direction-goal-2026-10-12
+                - title: "model：模式、范式"
+                  url: ./2026-10-12#word-model-pattern-2026-10-12
+                - title: "语法：what 从句中的 feels 与 should be emphasising"
+                  url: ./2026-10-12#grammar-what-feels-should-emphasise-2026-10-12
+                - title: "subtleties：微妙之处、精细而不易察觉的细节"
+                  url: ./2026-10-12#word-subtlety-fine-detail-2026-10-12
+                - title: "语法：as on 的结构边界"
+                  url: ./2026-10-12#grammar-as-on-2026-10-12
+                - title: "语法：present 长宾语后置与 as"
+                  url: ./2026-10-12#grammar-present-long-object-2026-10-12
+                - title: "presenting：向公众呈现、展示（复习）"
+                  url: ./2026-10-12#word-present-review-2026-10-12
+                - title: "spectacular：令人赞叹的、引人注目的"
+                  url: ./2026-10-12#word-spectacular-impressive-2026-10-12
+                - title: "yet：却又、而又（复习）"
+                  url: ./2026-10-12#word-yet-adjective-review-2026-10-12
+                - title: "facilitator：促进者、促成者"
+                  url: ./2026-10-12#word-facilitator-enabler-2026-10-12
