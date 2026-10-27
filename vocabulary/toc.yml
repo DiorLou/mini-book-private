@@ -783,3 +783,42 @@ project:
                   url: ./2026-10-21#word-mango-overview-2026-10-21
                 - title: "trucks：卡车、货车（truck 的复数）"
                   url: ./2026-10-21#word-truck-overview-2026-10-21
+            - title: "2026-10-22"
+              file: 2026/10/2026-10-22.md
+              children:
+                - title: "concern：涉及、使担忧；担忧、关切、重要的事"
+                  url: ./2026-10-22#word-concern-overview-2026-10-22
+                - title: "语法：为什么说 If I were you"
+                  url: ./2026-10-22#grammar-if-i-were-you-2026-10-22
+                - title: "strike：击打、罢工、突然想到、给人印象"
+                  url: ./2026-10-22#word-strike-overview-2026-10-22
+                - title: "Membership：成员资格、会籍"
+                  url: ./2026-10-22#word-membership-member-status-2026-10-22
+                - title: "particular：某一特定的"
+                  url: ./2026-10-22#word-particular-specific-2026-10-22
+                - title: "Provident：为未来作准备的、预作储备的"
+                  url: ./2026-10-22#word-provident-future-provision-2026-10-22
+                - title: "Scheme：计划、方案"
+                  url: ./2026-10-22#word-scheme-organised-plan-2026-10-22
+                - title: "commencement：开始、生效"
+                  url: ./2026-10-22#word-commencement-beginning-2026-10-22
+                - title: "exemption：豁免"
+                  url: ./2026-10-22#word-exemption-being-exempt-2026-10-22
+                - title: "deemed：被视为、被认定为"
+                  url: ./2026-10-22#word-deem-formally-regard-2026-10-22
+                - title: "Manulife RetireChoice：公司及计划专有名称"
+                  url: ./2026-10-22#word-manulife-proper-name-2026-10-22
+            - title: "2026-10-23"
+              file: 2026/10/2026-10-23.md
+              children:
+                - title: "compulsory 与 mandatory 的区别"
+                  url: ./2026-10-23#comparison-compulsory-mandatory-2026-10-23
+                - title: "compulsory：强制的、必须参加的"
+                  url: ./2026-10-23#word-compulsory-overview-2026-10-23
+                - title: "mandatory：强制性的、规定必须的"
+                  url: ./2026-10-23#word-mandatory-overview-2026-10-23
+            - title: "2026-10-26"
+              file: 2026/10/2026-10-26.md
+              children:
+                - title: "makeup：化妆品；put on makeup：化妆"
+                  url: ./2026-10-26#word-makeup-cosmetics-2026-10-26
