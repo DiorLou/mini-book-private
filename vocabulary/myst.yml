@@ -29,6 +29,11 @@ project:
         - 2026/10/2026-10-22.md
         - 2026/10/2026-10-23.md
         - 2026/10/2026-10-26.md
+        - 2026/10/2026-10-31.md
+        - 2026/11/2026-11-01.md
+        - 2026/11/2026-11-02.md
+        - 2026/11/2026-11-03.md
+        - 2026/11/2026-11-05.md
       output: _build/exports/vocabulary-notes.pdf
   downloads:
     - id: vocabulary-notes-pdf
