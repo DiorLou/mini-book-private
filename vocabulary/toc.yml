@@ -961,3 +961,15 @@ project:
                   url: ./2026-11-05#phrase-become-better-person-2026-11-05
                 - title: "语法：叙事中的 this 与 a/an"
                   url: ./2026-11-05#grammar-narrative-this-a-2026-11-05
+            - title: "2026-11-07"
+              file: 2026/11/2026-11-07.md
+              children:
+                - title: "boars：野猪；公猪"
+                  url: ./2026-11-07#word-boar-overview-2026-11-07
+            - title: "2026-11-09"
+              file: 2026/11/2026-11-09.md
+              children:
+                - title: "be attributed to：被归因于；被认为出自"
+                  url: ./2026-11-09#phrase-be-attributed-to-2026-11-09
+                - title: "语法：They are likely to connect with us"
+                  url: ./2026-11-09#grammar-likely-to-connect-2026-11-09
